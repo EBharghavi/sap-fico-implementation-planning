@@ -1,34 +1,3 @@
-# SAP FICO Implementation — Project Planning & Documentation
-
-> Simulated SAP FICO (Financial Accounting & Controlling) module implementation for a fictional mid-sized manufacturing company, **Meridian Industrial Products Pvt. Ltd.**, developed as part of an internship/training program.
-
----
-
-## 📌 Overview
-
-This repository tracks the end-to-end planning and documentation produced while working through a simulated SAP FICO implementation — starting with project strategy and planning, and expanding week by week into configuration, testing, and rollout documentation.
-
-The scenario: Meridian Industrial Products is a fictional manufacturing company running fragmented, spreadsheet-heavy financial processes across three plants. The project replaces this with an integrated **SAP FI (Financial Accounting)** and **SAP CO (Controlling)** solution.
-
----
-
-## 🗂️ Repository Structure
-
-```
-sap-fico-implementation-planning/
-│
-├── README.md                              ← you are here
-│
-├── week-01-project-planning-strategy/
-│   ├── SAP_FICO_Project_Plan.docx
-│   └── README.md
-│
-├── week-02-.../                           (added as the project progresses)
-├── week-03-.../
-│   ...
-│
-└── docs/                                  (optional shared reference material)
-```
 
 ---
 
@@ -37,7 +6,7 @@ sap-fico-implementation-planning/
 | Week | Focus Area | Deliverable | Status |
 |------|------------|-------------|--------|
 | 1 | Project Planning & Strategy | [SAP_FICO_Project_Plan.docx](./week-01-project-planning-strategy/SAP_FICO_Project_Plan.docx) | ✅ Complete |
-| 2 | *(add next milestone here)* | — | ⏳ Pending |
+| 2 | System Configuration & Integration Design | [SAP_FICO_Configuration_Integration_Design.docx](./week-02-configuration-integration-design/SAP_FICO_Configuration_Integration_Design.docx) | ✅ Complete |
 | 3 | *(add next milestone here)* | — | ⏳ Pending |
 
 ---
@@ -68,6 +37,18 @@ The implementation follows a **hybrid methodology**:
 - Mapped to standard **PMBOK process groups** — Initiation → Planning → Execution → Monitoring & Control → Closure
 
 This alignment gives the project both SAP-specific delivery discipline and standard project-governance structure.
+
+---
+
+## 🔗 Integration Scope (added Week 2)
+
+FI/CO integrates with the following modules as part of the configuration and integration design:
+
+- **SD (Sales & Distribution)** — Order-to-Cash: billing documents post automatically to Accounts Receivable
+- **MM (Materials Management)** — Procure-to-Pay: goods receipt and invoice verification post automatically to Accounts Payable
+- **PP (Production Planning)** — order settlement into Controlling (WIP, variances)
+- **HCM (Payroll)** — monthly batch posting of payroll costs into FI/CO
+- **Banking** — electronic bank statement processing and payment file exchange
 
 ---
 
