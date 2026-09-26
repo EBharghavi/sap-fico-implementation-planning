@@ -1,3 +1,15 @@
+# SAP FICO Implementation — Project Planning & Documentation
+
+> Simulated SAP FICO (Financial Accounting & Controlling) module implementation for a fictional mid-sized manufacturing company, **Meridian Industrial Products Pvt. Ltd.**, developed as part of an internship/training program.
+
+---
+
+## 📌 Overview
+
+This repository tracks the end-to-end planning and documentation produced while working through a simulated SAP FICO implementation — starting with project strategy and planning, and expanding week by week into configuration, integration, testing, and rollout documentation.
+
+The scenario: Meridian Industrial Products is a fictional manufacturing company running fragmented, spreadsheet-heavy financial processes across three plants. The project replaces this with an integrated **SAP FI (Financial Accounting)** and **SAP CO (Controlling)** solution.
+
 ---
 
 ## 📅 Weekly Progress
