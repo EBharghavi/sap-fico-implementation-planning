@@ -1,4 +1,3 @@
-
 ---
 
 ## 📅 Weekly Progress
@@ -7,7 +6,8 @@
 |------|------------|-------------|--------|
 | 1 | Project Planning & Strategy | [SAP_FICO_Project_Plan.docx](./week-01-project-planning-strategy/SAP_FICO_Project_Plan.docx) | ✅ Complete |
 | 2 | System Configuration & Integration Design | [SAP_FICO_Configuration_Integration_Design.docx](./week-02-configuration-integration-design/SAP_FICO_Configuration_Integration_Design.docx) | ✅ Complete |
-| 3 | *(add next milestone here)* | — | ⏳ Pending |
+| 3 | Financial Data Reporting & Analytics | [SAP_FICO_Reporting_Analytics_Plan.docx](./week-03-financial-reporting-analytics/SAP_FICO_Reporting_Analytics_Plan.docx) | ✅ Complete |
+| 4 | *(add next milestone here)* | — | ⏳ Pending |
 
 ---
 
@@ -52,6 +52,18 @@ FI/CO integrates with the following modules as part of the configuration and int
 
 ---
 
+## 📊 Reporting & Analytics Scope (added Week 3)
+
+Building on the FI/CO configuration and integration design, the reporting layer delivers:
+
+- **Core financial reports** — Income Statement, Balance Sheet, Cash Flow Statement, Cost Center & Profitability (COPA) reports
+- **Executive & operational dashboards** — Executive Financial Dashboard, Cash Flow Forecast Dashboard, Monthly KPI Scorecard
+- **KPI framework** — 10 KPIs across profitability, liquidity, efficiency, and control, each with a defined calculation and target
+- **Analytics maturity model** — descriptive (standard reports) → diagnostic (variance drill-down) → predictive (13-week rolling cash flow forecasting)
+- **Delivery tools** — SAP Fiori embedded analytics, SAP Analysis for Office, with SAP BW/4HANA or Datasphere identified as a future scalability path
+
+---
+
 ## 🎯 Key Project Targets
 
 | Metric | Baseline | Target |
@@ -60,6 +72,8 @@ FI/CO integrates with the following modules as part of the configuration and int
 | Manual reconciliation effort | ~120 hrs/month | < 40 hrs/month |
 | Cost center reporting | Monthly (3–4 week lag) | Real-time / daily |
 | UAT sign-off coverage | — | 100% of in-scope processes |
+| Monthly board pack turnaround | 5-7 working days | 1-2 working days |
+| Cash position visibility | Weekly, manual | Daily, automated dashboard |
 
 ---
 
